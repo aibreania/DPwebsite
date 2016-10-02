@@ -1,0 +1,14 @@
+#mylogo {
+    width: 30px;
+    float: left;
+}
+
+.nav-top {
+    list-style-type: none;
+
+}
+
+.nav-pills {
+    display: inline-block;
+    text-decoration: none;
+}
