@@ -1,14 +1,127 @@
 #mylogo {
-    width: 30px;
+    width: 80px;
+    margin: 0 46%;
+}
+
+#myname {
+    margin: 0 40%;
+    font-size: 40px;
+    font-family: "Helvetica Neue", sans-serif;
+    text-decoration: none;
+    color: #333333;
+}
+
+.top-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.top-nav li {
     float: left;
 }
 
-.nav-top {
-    list-style-type: none;
-
+.top-nav li a {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    margin: 0px 40px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Helvetica Neue", sans-serif;
 }
 
-.nav-pills {
+.top-nav li:first-child {
+    margin-left: 300px;
+}
+
+.top-nav:nth-child(3) {
+    margin-right: 100px;
+}
+
+.nav-pills a:hover {
+    opacity: .5;
+}
+
+.header-line {
+    width: 90%;
+    height: 2px;
+    margin: 0px 60px;
+    background-color: #333;
+}
+
+.content img {
+    width: 1200px;
+    padding: 20px 100px;
+    position: relative;
+}
+
+.btm-nav {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.footer-line {
+    width: 90%;
+    height: 2px;
+    margin: 0px 60px;
+    background-color: #333;
+}
+
+.contact {
+    list-style-type: none;
+    padding-left: 510px;
+}
+
+.contact li {
     display: inline-block;
-    text-decoration: none;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    padding:0 10px;
+    border-right: solid #333333;
+}
+
+.contact li:nth-child(3) {
+    border-style: hidden;
+}
+
+.btm-pills {
+    display: inline-block;
+}
+
+.btm-pills a {
+    margin: 0 50px;
+}
+
+.btm-pills a img {
+    height: 28px;
+    width: 28px;
+}
+
+.btm-nav .btm-pills:first-child {
+    margin-left: 400px;
+}
+
+.in-icon:hover {
+    opacity: .5;
+}
+
+.cp-icon:hover {
+    opacity: .5;
+}
+
+.git-icon:hover {
+    opacity: .5;
+}
+
+.ins-icon:hover {
+    opacity: .5;
+}
+
+.footer p {
+    font-size: 15px;
+    font-family: "Helvetica Neue", sans-serif;
+    color: grey;
+    padding: 2px 630px;
 }
